@@ -1,0 +1,125 @@
+/* إعادة ضبط بعض القيم الافتراضية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* نمط الجسم */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #f2f2f2, #cce7ff);
+    color: #333;
+}
+
+/* الرأس */
+header {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 5px solid #25D366;
+}
+
+/* الشعار */
+.logo {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+/* العنوان الفرعي */
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* النص تحت العنوان */
+header p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* معرض الصور */
+.gallery {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* تنسيق الصور */
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+/* موقع */
+.location {
+    background-color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.location iframe {
+    border-radius: 10px;
+}
+
+/* قسم الاتصال */
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact-btn {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+
+.contact-btn:hover {
+    background-color: #128C7E;
+    transform: translateY(-5px);
+}
+
+/* التذييل */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
